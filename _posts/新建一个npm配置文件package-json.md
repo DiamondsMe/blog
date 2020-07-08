@@ -1,9 +1,11 @@
 ---
 title: 新建一个npm配置文件package.json
 abbrlink: 7f3647cb
-categories: 开发工具
+categories:
+- 开发工具
 date: 2018-05-13 17:23:48
-tags:
+tags: 
+- 前端
 ---
 
 如果需要在项目中使用npm的一些功能,一般有需要在项目里面添加一个`package.json`文件.它描述了项目目需要使用的npm模块,项目的基本信息等.
@@ -12,6 +14,8 @@ tags:
 
     npm init
 
+
+<!-- more -->
 执行此命令后,会有一系列回答步骤,回答完毕后会在`package.json`中生成如下基本配置
 
     {

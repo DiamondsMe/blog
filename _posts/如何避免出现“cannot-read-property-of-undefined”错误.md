@@ -1,9 +1,11 @@
 ---
 title: 如何避免出现“cannot read property of undefined”错误
 abbrlink: c9529d69
-categories: 前端
+categories:
+- 前端
 date: 2020-07-07 22:12:02
 tags:
+- javascript
 ---
 # 如何避免出现“cannot read property of undefined”错误
 
@@ -14,6 +16,7 @@ tags:
 lodash中的_.get或者Ramda 里的 R.path方法;  
 但有时只是想单纯避免出现这个错误,而不想引入整合类库造成不必要的浪费.
 
+<!-- more -->
 ## 使用 && “短路”
 
 使用`&&`符号,例如:
